@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    font-family: 'Zen Loop', cursive;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Cinzel Decorative', cursive;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#profile {
+    height: 350px;
+    width: 350px;
+    padding-top: 100px;
+}
+
+#s1 {
+    background: linear-gradient(silver, aqua);
+    height: 650px;
+}
+
+#title {
+    font-size: 35px;
+}
+
+#name {
+    font-size: 40px;
+}
+
+#bio {
+    font-size: 30px;
+}
+
+#about {
+    font-size: 35px;
+}
+
+#s2 {
+    height: 350px;
+}
+
+.links {
+    float: left;
+    color: cornsilk;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+.links:hover {
+    background-color: aquamarine;
+}
+
+html:hover {
+    scroll-behavior: smooth;
+}
+
+#badge99 {
+    height: 500px;
+    width: 500px;
+    border-radius:50%;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+img {
+    transition: transform .2s;
+}
+#contact {
+    background:yellowgreen;
+}
